@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-color: paleblue;
 }
 
 input {
@@ -19,30 +19,42 @@ button {
 	width: 30%;
 	height: 60px;
 	display: block;
-	border-radius: 100%;
-	font-size: 1.2em;
+	border-radius: 10px;
+	font-size: 1.5em;
 	background-color: lightgreen;
 }
 
-button :active {
-	color: white;
-}
-
-#header {
+div {
 	height: 300px;
 	width:600px;
 	border-radius: 20px;
+	border: 5px solid lightgreen;
 	margin: auto;
-	background-image: url("http://www.pd4pic.com/images/question-mark-characters-question-response-help.jpg");
+	text-align: center;
+	font-family: cursive;
+	background-color: palegoldenrod;
+	box-shadow: 0px 7px 10px darkgreen;
 }
+
+h1 {
+	font-size: 7.5em;
+	color: palegreen;
+	text-shadow: 2px 2px 5px darkgreen;
+}
+#header, #playspace {
+	margin: 1% auto auto auto;
+	padding: 20px;
+	margin: 10px;
+	border: 2px dashed blue;
+}
+
 
 #game {
 	height: 50%;
-	width: 50%;
+	width: 600px;
 	border-radius: 200px;
 	border: 5px solid lightgreen;
 	display: block;
 	padding: 100px;
-	background-color: palegoldenrod;
-	margin: 10% auto auto auto;
+	margin: 3% auto auto auto;
 }
