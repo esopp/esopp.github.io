@@ -77,6 +77,7 @@ body {
 	border: 2px solid white; 
 	display: block;
 	width: 100%;
+	height: 2.5em;
 }
 
 
@@ -92,6 +93,7 @@ body {
 	text-align: left;
 	font-size: 2em;
 	font-family: impact;
+	color: #E5C4DA;
 }
 
 #live {
@@ -100,8 +102,6 @@ body {
 	margin: 100vh 0 0 0;
 	width: 100%;
 	height: 100%;
-	background-color: cadetblue;
-	
 	
 }
 
@@ -111,16 +111,15 @@ body {
 	margin: 200vh 0 0 0;
 	width: 100%;
 	height: 100%;
-	background-color: lightslategrey;
 	
 }
 
 #music img {
 	margin: 1em;
 	border-radius: 3px;
-	border: 1px solid black;
+	border: 1px solid lightslategrey;
 	width: 30%;
-	box-shadow: 3px 3px 8px black;
+	box-shadow: 3px 3px 8px darkslategrey;
 }
 
 
@@ -128,7 +127,6 @@ body {
 	position: absolute;
 	display: block;
 	width: 100%;
-	background-color: lavender;
 	margin: 300vh 0 0 0;
 }
 
@@ -136,14 +134,14 @@ body {
 iframe {
 	margin: 2%;
 	box-shadow: 3px 3px 8px;
-	border: 15px solid black;
+	border: 15px solid darkslategrey;
+	border-radius: 5px;
 }
 
 
 #bio {
 	position: absolute;
 	display: block;
-	background-color: bisque;
 	margin: 418vh 0 0 0;
 	width: 100%;
 	height: 100%;
@@ -152,7 +150,7 @@ iframe {
 h1 {
 	position: relative;
 	font-family: Poplar Std, sans-serif;
-	color: white;
+	color: #E5C4DA;
 	font-size: 12em;
 	padding: 2em px 0px 0px;
 	line-height: 80%;
@@ -161,15 +159,16 @@ h1 {
 }
 
 h3 {
-	font-family: courier, impact, sans-serif;
+	font-family: futura, impact, sans-serif;
 	font-size: 2em;
 	color: white;
 	text-align: center;
 	line-height: 100%;
+	margin-top: .1em; 
 }
 
 span {
-	color: darkred;
+	color: red;
 	font-family: cursive;
 	font-size: 2em;
 	border-radius: 5px;
@@ -178,8 +177,8 @@ span {
 p {
 	font-family: georgia;
 	font-size: 1.5em;
-	color: black;
+	color: #E5C4DA;
 	margin-left: 10%;
 	margin-right: 10%;
-	border: 1px dashed darkred;
+	border: 1px dashed #E5C4DA;
 }
