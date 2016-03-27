@@ -1,0 +1,69 @@
+body {
+	background-color: black;
+}
+
+#main {
+	position: absolute;
+	width: 100%;
+	height: 3em;
+	margin: -1.5em 0 0 0;
+	background-color: black;
+	opacity: 0.65;
+	z-index: 1;
+}
+
+*>#main {
+	position: fixed;
+}
+
+#navUL {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#navUL li a {
+	font-family: futura;
+	color: white;
+	opacity: 1;
+	text-decoration: none;
+	display: block;
+	padding: 1% 1% 1% 1%;
+	float: left;
+	font-size: 1em;
+}
+
+#navUL li a:hover {
+	border: 1px solid white;
+	background-color: darkslategrey;
+	
+}
+
+#landing {
+	position: absolute;
+	display: block;	
+	height: 100vh;
+	width: 100%;
+	background-image: url("ArmchairLily.jpg");
+	margin: 0;
+	
+}
+
+
+h1 {
+	position: relative;
+	font-family: Poplar Std, sans-serif;
+	color: white;
+	font-size: 12em;
+	padding: 2em px 0px 0px;
+	line-height: 80%;
+	margin: 15% 1% 0 0;
+
+}
+
+
+p {
+	font-family: futura;
+	font-size: 1.5em;
+	color: white;
+}
