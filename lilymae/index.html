@@ -6,29 +6,73 @@
 <link type="text/CSS" rel="stylesheet" href="main.css" />
 </head>
 <body>
-	
+	<script>
+	function top() {
+		document.getElementById('landing').scrollIntoView("slow");
+	}
+	</script>
 	<nav id="main">
-		<ul id="navUL">
+		<ul class="navUL">
 			<li><a href="#live">LIVE</a></li>
 			<li><a href="#music">MUSIC</a></li>
 			<li><a href="#videos">VIDEOS</a></li>
-			<li><a href="#">ABOUT</a></li>
+			<li><a href="#bio">ABOUT</a></li>
 			<li><a href="#">TOP</a></li>
 		</ul>
 	</nav>
 	
 	<section id="landing">
 		<h1>LILY<BR>MAE</h1>
+		<ul>
+		<li><a href="https://www.youtube.com/channel/UCUEA6HpfV6RL9UYFzQeLK-w">
+		 <img src="youtube.png" /></a></li>
+		 <li><a href="https://www.facebook.com/lilymaemusic/">
+		 <img id= "fb" src="facebook.png" /></a></li>
+		 <li><a href="https://twitter.com/lilymaemusic"><img src="twitter.png" /></a></li>
+		 <li><a href="https://www.instagram.com/lilymaemusic/?hl=en"><img src="instagram.png" /></a></li>
+		</ul>
 	</section> 
+	
+	
 	<section id="live">
-		<div>
-			<p>testing</p>
+		<div class="divTitle"><h3>LIVE DATES</h3></div>
+		<div class="show">
+			<div>Date</div> <div>Show Location</div> <div>Tickets</div>
+		</div>
+		<div class="show">
+			<div>Date</div> <div>Show Location</div> <div>Tickets</div>
+		</div>
+		<div class="show">
+			<div>Date</div> <div>Show Location</div> <div>Tickets</div>
+		</div>
+		<div class="show">
+			<div>Date</div> <div>Show Location</div> <div>Tickets</div>
 		</div>
 	</section>
 	<section id="music">
+		<div class="divTitle"><h3>MUSIC</h3></div>
+		<a href="https://lilymae.bandcamp.com/album/early-days">
+		<img src="earlydays.jpg" /></a>
+		<a href="https://lilymae.bandcamp.com/album/winter-lullaby-single">
+		<img src="winterlullaby.jpg" /></a>
 	</section>
 	<section id="videos">
+	
+	<div class="divTitle"><h3>VIDEOS</h3></div>
+	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/pVdAVN9tZac" 
+	frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/KXUO8Y_BaMQ" 
+	frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Wenv1jMqin4" 
+	frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8IeOhBTA9XE" 
+	frameborder="0" allowfullscreen></iframe>
 	</section>
-<body>
+	<section id="bio">
+		<div class="divTitle"><h3>ABOUT</h3></div>
+		<p><span>B</span>io about Lily Mae!</p>
+	</section>
+</body>
 </html>
 

@@ -2,11 +2,13 @@ body {
 	background-color: black;
 }
 
+
+
 #main {
 	position: absolute;
 	width: 100%;
 	height: 3em;
-	margin: -1.5em 0 0 0;
+	margin: -1em 0 0 0;
 	background-color: black;
 	opacity: 0.65;
 	z-index: 1;
@@ -16,13 +18,14 @@ body {
 	position: fixed;
 }
 
-#navUL {
+.navUL {
 	list-style-type: none;
-	padding: 0;
 	margin: 0;
+	padding: 0;
 }
 
-#navUL li a {
+
+.navUL li a {
 	font-family: futura;
 	color: white;
 	opacity: 1;
@@ -33,23 +36,118 @@ body {
 	font-size: 1em;
 }
 
-#navUL li a:hover {
+
+.navUL li a:hover {
 	border: 1px solid white;
 	background-color: darkslategrey;
-	
 }
+
+
 
 #landing {
 	position: absolute;
 	display: block;	
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background-image: url("ArmchairLily.jpg");
 	background-repeat: no-repeat;
-	margin: 0;
+	margin: 0 0 0 0;
+	float: top;
 	
 }
 
+#landing ul {
+	margin-top: 16%;
+	float: right;
+	margin-right: 8%;
+}
+
+#landing ul li{
+	display: inline;
+}
+
+
+
+#landing ul img {
+	width: 30px;
+}
+
+.divTitle {
+	background-color: darkslategrey;
+	border: 2px solid white; 
+	display: block;
+	width: 100%;
+}
+
+
+.show {
+	margin: 0 0 0 10%;
+}
+
+.show div {
+	display: inline-block;
+	width: 30%;
+	height: 10%;
+	padding: 2% 0 2% 0;
+	text-align: left;
+	font-size: 2em;
+	font-family: impact;
+}
+
+#live {
+	position: absolute;
+	display: block;
+	margin: 100vh 0 0 0;
+	width: 100%;
+	height: 100%;
+	background-color: cadetblue;
+	
+	
+}
+
+#music {
+	position: absolute;
+	display: block;
+	margin: 200vh 0 0 0;
+	width: 100%;
+	height: 100%;
+	background-color: lightslategrey;
+	
+}
+
+#music img {
+	margin: 1em;
+	border-radius: 3px;
+	border: 1px solid black;
+	width: 30%;
+	box-shadow: 3px 3px 8px black;
+}
+
+
+#videos {
+	position: absolute;
+	display: block;
+	width: 100%;
+	background-color: lavender;
+	margin: 300vh 0 0 0;
+}
+
+
+iframe {
+	margin: 2%;
+	box-shadow: 3px 3px 8px;
+	border: 15px solid black;
+}
+
+
+#bio {
+	position: absolute;
+	display: block;
+	background-color: bisque;
+	margin: 418vh 0 0 0;
+	width: 100%;
+	height: 100%;
+}
 
 h1 {
 	position: relative;
@@ -62,9 +160,26 @@ h1 {
 
 }
 
+h3 {
+	font-family: courier, impact, sans-serif;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	line-height: 100%;
+}
+
+span {
+	color: darkred;
+	font-family: cursive;
+	font-size: 2em;
+	border-radius: 5px;
+}
 
 p {
-	font-family: futura;
+	font-family: georgia;
 	font-size: 1.5em;
-	color: white;
+	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 1px dashed darkred;
 }
