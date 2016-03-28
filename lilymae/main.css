@@ -47,7 +47,7 @@ body {
 #landing {
 	position: absolute;
 	display: block;	
-	height: 100%;
+	height: 110vh;
 	width: 100%;
 	background-image: url("ArmchairLily.jpg");
 	background-repeat: no-repeat;
@@ -56,19 +56,26 @@ body {
 	
 }
 
-#landing ul {
-	margin-top: 16%;
-	float: right;
-	margin-right: 8%;
+#landing img {
+	width: 22em;
+	margin-top: 20%;
+}
+#main ul:nth-child(2) {
+	margin-right: 5%;
 }
 
-#landing ul li{
+#main ul:nth-child(2) li {
+	float: right;
+	margin-right: 1%;
+}
+
+#main ul li{
 	display: inline;
 }
 
 
 
-#landing ul img {
+#main ul img {
 	width: 30px;
 }
 
@@ -99,7 +106,7 @@ body {
 #live {
 	position: absolute;
 	display: block;
-	margin: 100vh 0 0 0;
+	margin: 110vh 0 0 0;
 	width: 100%;
 	height: 100%;
 	
@@ -108,7 +115,7 @@ body {
 #music {
 	position: absolute;
 	display: block;
-	margin: 200vh 0 0 0;
+	margin: 220vh 0 0 0;
 	width: 100%;
 	height: 100%;
 	
@@ -127,7 +134,7 @@ body {
 	position: absolute;
 	display: block;
 	width: 100%;
-	margin: 300vh 0 0 0;
+	margin: 320vh 0 0 0;
 }
 
 
@@ -142,7 +149,7 @@ iframe {
 #bio {
 	position: absolute;
 	display: block;
-	margin: 418vh 0 0 0;
+	margin: 438vh 0 0 0;
 	width: 100%;
 	height: 100%;
 }
