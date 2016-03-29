@@ -10,7 +10,6 @@ body {
 	height: 3em;
 	margin: -1em 0 0 0;
 	background-color: black;
-	opacity: 0.65;
 	z-index: 1;
 }
 
@@ -45,14 +44,13 @@ body {
 
 
 #landing {
-	position: absolute;
-	display: block;	
+	
 	height: 110vh;
 	width: 100%;
 	background-image: url("ArmchairLily.jpg");
 	background-repeat: no-repeat;
 	margin: 0 0 0 0;
-	float: top;
+	float: left;
 	
 }
 
@@ -104,20 +102,18 @@ body {
 }
 
 #live {
-	position: absolute;
-	display: block;
-	margin: 110vh 0 0 0;
+	margin-top: 1%;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
+	float: left;
 	
 }
 
 #music {
-	position: absolute;
-	display: block;
-	margin: 220vh 0 0 0;
+	margin-top: 1%;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
+	float: left;
 	
 }
 
@@ -131,27 +127,25 @@ body {
 
 
 #videos {
-	position: absolute;
-	display: block;
+	margin-top: 1%;
 	width: 100%;
-	margin: 320vh 0 0 0;
+	float: left;
 }
 
 
-iframe {
-	margin: 2%;
+/* iframe {
+	
 	box-shadow: 3px 3px 8px;
 	border: 15px solid darkslategrey;
 	border-radius: 5px;
-}
+} */
 
 
 #bio {
-	position: absolute;
-	display: block;
-	margin: 438vh 0 0 0;
+	margin-top: 1%;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
+	float: left;
 }
 
 h1 {
@@ -175,17 +169,48 @@ h3 {
 }
 
 span {
-	color: red;
+	color: #E5C4DA;
 	font-family: cursive;
 	font-size: 2em;
-	border-radius: 5px;
 }
 
 p {
-	font-family: georgia;
+	font-family: futura;
 	font-size: 1.5em;
+	color: white;
+	text-indent: 1em;
+	padding: 2%;
+	margin-left: 5%;
+}
+
+.border img {
+	border-radius: 5px;
+	border: 10px solid #E5C4DA;
+	margin-top: 8%;
+}
+
+.border {
+	margin: 1%;
+	
+}
+
+.border div {
+	float: left;
+	width: 50%;
+	
+}
+
+.border a {
+	color: white;
+	text-decoration: none;
+}
+
+.border a:hover {
 	color: #E5C4DA;
-	margin-left: 10%;
-	margin-right: 10%;
-	border: 1px dashed #E5C4DA;
+}
+
+iframe {
+	width: 70em;
+	height: 39.2em;
+	margin: 2%; 
 }
