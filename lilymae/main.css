@@ -153,6 +153,37 @@ td a:hover {
 	background-color: #E5C4DA;
 }
 
+
+#instaWidget {
+	height: 200px;
+	margin: 2% 30% 0 30%;
+	
+}
+
+#instaWidget p {
+	position: absolute;
+	width: 500px;
+	height: 60px;
+	color: #E5C4DA;
+	font-family: futura;
+	font-size: 28pt;
+	background-color: white;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+
+#instaWidget span {
+	color: #bfbfbf;
+}
+
+
+#instaWidget iframe {
+	margin-top: 107px;
+}
+
+
+
 #pictAlbum {
 	margin: 3em;
 }
@@ -166,7 +197,7 @@ td a:hover {
 
 
 
-span {
+#bio span {
 	color: #bfbfbf;
 	font-family: futura;
 	font-size: 1.3em;
@@ -208,9 +239,9 @@ span {
 }
 
 #videos iframe {
-	width: 70em;
-	height: 39.2em;
-	margin: 2%; 
+	width: 55em;
+	height: 30.8em;
+	margin: 3% 15% 5% 15%; 
 }
 
 .single {
