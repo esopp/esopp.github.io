@@ -197,7 +197,7 @@ td a:hover {
 
 
 
-#bio span {
+#live span, #bio span {
 	color: #bfbfbf;
 	font-family: futura;
 	font-size: 1.3em;
