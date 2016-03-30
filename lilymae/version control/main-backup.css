@@ -1,17 +1,15 @@
 body {
-	background-color: #E5C4DA;
+	background-color: black;
 }
 
 section {
-	position: relative;
-	margin-top: 8%;
+	margin-top: 1%;
 	float: left;
 	width: 100%;
-	background-color: white;
 }
 
 *:focus {
-	border: 1px solid lightslategrey;
+	border: 1px solid white;
 	box-shadow: 2px 2px 8px lightslategrey;
 }
 
@@ -89,14 +87,11 @@ section {
 }
 
 .divTitle {
-	position: relative;
-	background-color: #E5C4DA;
+	background-color: darkslategrey;
+	border: 2px solid white; 
+	display: block;
 	width: 100%;
-}
-
-.divTitle img {
-	position: absolute;
-	bottom: 0;
+	height: 2.5em;
 }
 
 
@@ -106,56 +101,27 @@ section {
 
 .show div {
 	display: inline-block;
-	margin-left: 10%;
+	width: 30%;
 	height: 10%;
-	padding: 5% 0 5% 0;
+	padding: 2% 0 2% 0;
 	text-align: left;
-	font-size: 1.3em;
-	font-family: futura;
+	font-size: 2em;
+	font-family: impact;
 	color: #E5C4DA;
 }
 
-td {
-	width: 20em;
-	color: #E5C4DA;
-	font-family: futura;
-	font-size: 1.3em;	
+#live {
+	height: 100vh;
 }
 
-td a {
-	text-decoration: none;
-	color: #E5C4DA;
-	padding: 0 2px 0 2px;
-	border-radius: 5px;
-	border: 2px solid #E5C4DA;
+#music img {
+	margin: 1em;
+	border-radius: 3px;
+	border: 1px solid lightslategrey;
+	width: 30%;
+	box-shadow: 3px 3px 8px darkslategrey;
 }
 
-td a:hover {
-	color: lightslateblue;
-	border: 2px solid lightslateblue;
-}
-
-#music, #live {
-	position: relative;
-	padding-bottom: 5%;
-}
-
-.center {
-	margin-left: 15%;
-}
-
-#music a img {
-	
-	margin-left: 45%;
-}
-
-#gallery {
-	background-color: #E5C4DA;
-}
-
-#pictAlbum {
-	margin: 3em;
-}
 
 /* iframe {
 	
@@ -165,17 +131,36 @@ td a:hover {
 } */
 
 
+h1 {
+	position: relative;
+	font-family: Poplar Std, sans-serif;
+	color: #E5C4DA;
+	font-size: 12em;
+	padding: 2em px 0px 0px;
+	line-height: 80%;
+	margin: 15% 1% 0 0;
+
+}
+
+h3 {
+	font-family: futura, impact, sans-serif;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	line-height: 100%;
+	margin-top: .1em; 
+}
 
 span {
-	color: #bfbfbf;
-	font-family: futura;
-	font-size: 1.3em;
+	color: #E5C4DA;
+	font-family: cursive;
+	font-size: 2em;
 }
 
 #bio p {
 	font-family: futura;
 	font-size: 1.5em;
-	color: black;
+	color: white;
 	text-indent: 1em;
 	padding: 2%;
 	margin-left: 5%;
@@ -199,7 +184,7 @@ span {
 }
 
 .border a, #contact a {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -207,27 +192,16 @@ span {
 	color: #E5C4DA;
 }
 
-#videos iframe {
+iframe {
 	width: 70em;
 	height: 39.2em;
 	margin: 2%; 
 }
 
-.single {
-	width: 25em;
-	height: 25em;
-	margin: 2%;
-}
-
-.album {
-	width: 30em;
-	height: 25em;
-	margin: 2%;
-}
-
 #contact {
-	background-color: white;
+	background-color: darkslategrey;
 	height: 5vh;
+	color: white;
 	text-align: center;
 	font-family: futura;
 	font-size: .8em;
