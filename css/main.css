@@ -18,13 +18,21 @@ input:active {
 button {
 	width: 30%;
 	height: 60px;
-	display: block;
+	display: inline-block;
 	border-radius: 10px;
 	font-size: 1.5em;
 	background-color: lightgreen;
+	margin: auto;
+	box-shadow: 2px 2px 5px;
 }
 
-div {
+#buttons {
+	margin: auto;
+	
+}
+
+
+#game, #headDiv {
 	height: 300px;
 	width:600px;
 	border-radius: 20px;
@@ -45,7 +53,7 @@ h1 {
 	margin: 1% auto auto auto;
 	padding: 20px;
 	margin: 10px;
-	border: 2px dashed blue;
+	width: 100%;
 }
 
 
