@@ -138,7 +138,7 @@ td a:hover {
 #music, #live {
 	position: relative;
 	padding-bottom: 5%;
-	height: 100vh;
+	/* height: 100vh; */
 }
 
 .center {
@@ -253,12 +253,14 @@ td a:hover {
 	width: 25em;
 	height: 25em;
 	margin: 2%;
+	margin-bottom: 10%;
 }
 
 .album {
-	width: 30em;
+	width: 25em;
 	height: 25em;
 	margin: 2%;
+	margin-bottom: 10%;
 }
 
 #contact {
