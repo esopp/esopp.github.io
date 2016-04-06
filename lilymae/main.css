@@ -85,7 +85,7 @@ section {
 
 
 #main ul img {
-	width: 30px;
+	width: 20px;
 }
 
 .divTitle {
@@ -138,6 +138,7 @@ td a:hover {
 #music, #live {
 	position: relative;
 	padding-bottom: 5%;
+	height: 100vh;
 }
 
 .center {
@@ -186,6 +187,10 @@ td a:hover {
 
 #pictAlbum {
 	margin: 3em;
+}
+
+#pictAlbum img {
+	padding: 2%;
 }
 
 /* iframe {
@@ -268,6 +273,6 @@ td a:hover {
 .anchor {
 	display: block;
 	position: relative;
-	top: -150px;
+	top: -140px;
 	visibility: hidden;
 }
