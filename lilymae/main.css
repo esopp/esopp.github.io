@@ -208,13 +208,20 @@ td a:hover {
 	font-size: 1.3em;
 }
 
-#bio p {
+#bio .border p {
 	font-family: futura;
 	font-size: 1.5em;
 	color: black;
 	text-indent: 1em;
 	padding: 2%;
 	margin-left: 5%;
+}
+
+#bio .caption p {
+	font-family: futura, sans-serif;
+	font-size: .7em;
+	color: #bfbfbf;
+	margin-top: -2%;
 }
 
 .border img {
@@ -271,6 +278,7 @@ td a:hover {
 	font-size: .8em;
 	border: 1px solid white;
 }
+
 
 .anchor {
 	display: block;
