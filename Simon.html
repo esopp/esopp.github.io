@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+
+	<link type="text/css" rel="stylesheet" href="simon.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<script src="simon.css"></script>
+
+	<title>Simon</title>
+</head>
+<body>
+
+
+<div class="circle">
+  <div class="control">
+      <p>SIMON</p>
+    <div style="display:inline-block">
+      <div id="counter"><p id="cnt-p" style="font-size: 30pt; font-family: iceland; color: red; margin: -2px 5px 0 5px; float: right"></p></div>
+      <p style="font-size: 12pt">count</p>  
+    </div>
+    <div style="display:inline-block">
+      <button id="start"></button>
+      <p style="font-size: 12pt">start</p>
+    </div>
+    <div style="display:inline-block">
+      <div class="led"></div>
+      <button id="strict"></button>
+      <p style="font-size: 12pt">strict</p>
+    </div>
+    <div>
+    <p style="font-size: 12pt; display: inline; margin: 0 0 0 35px;">on</p>
+    <div id="onoff" style="display: inline-block; margin-top: 5px;">
+       <div class="off"></div>
+     </div>
+    <p style="font-size: 12pt; display:inline; margin: 0 -10px 0 0">off</p></div>
+  </div>
+  
+  
+  
+  
+  <svg height="225" width="450">
+  <path class="red" d="M 230 0 Q 450 20 450 225 L350 225 Q 340 120 230 100 Z" stroke="#b30000" />
+    <path class="green" d="M 220 0 Q 10 20 0 225 L100 225 Q 100 115 220 100 Z" stroke="#004d1a" />  
+  </svg>
+  <svg height='225' width='450'>
+  <path class="blue" d="M 450 5 Q 430 210 230 220 L 230 120 Q 335 110 350 5 Z" stroke="#3333ff" />
+   <path class="yellow" d="M 0 5 Q 30 210 220 220 L 220 120 Q 120 110 100 5" stroke="yellow" />
+   </svg>
+  
+    
+</div>
+</body>
+</html>

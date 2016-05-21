@@ -1,0 +1,153 @@
+body {
+  background-color: #ffcc99
+;
+}
+
+.circle {
+  width: 450px;
+  height: 450px;
+  background-color: #262626;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 10% auto;
+  padding: 25px;
+  box-shadow: 8px 10px 90px black;
+}
+
+.blue {
+  fill : #3333ff;
+}
+
+.blue-flash {
+  fill : #6699ff;
+}
+
+.red {
+  fill : #b30000;
+}
+
+.red-flash {
+  fill : #ff0000;
+}
+
+.yellow {
+  fill : yellow;
+}
+
+.yellow-flash {
+  fill : palegoldenrod; 
+}
+
+.green {
+  fill: #004d1a;
+}
+
+.green-flash {
+  fill: #009933;  
+}
+
+.color {
+    width: 0px;
+  height: 0px;
+  border-right: 60px solid blue;
+  border-top: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+
+.control {
+  width: 150px;
+  height: 150px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  margin: 120px 0 0 120px;
+  padding: 30px;
+  position: absolute;
+}
+
+#counter {
+  width: 60px;
+  height: 40px;
+  margin: 10px 0 0 -10px;
+  border-radius: 10px;
+  border: 3px solid #262626;
+  background-color: #391313;
+}
+
+#start {
+  width: 25px;
+  height: 25px;
+  border: 3px solid #262626;
+  background-color: #ff3333;
+  box-shadow: 0 3px 5px grey;
+  border-radius: 50%;  
+  margin-left: 10px;
+}
+
+.led {
+  width: 10px;
+  height: 10px; 
+  border-radius: 50%;
+  border: 2px solid #262626;
+  background-color: #391313;
+  margin: 0 0 4px 18px;
+}
+
+.led-on {
+  background-color: red;
+}
+
+#strict {
+  width: 25px;
+  height: 25px;
+  border: 3px solid #262626;
+  background-color: yellow;
+  box-shadow: 0 3px 5px grey;
+  border-radius: 50%;  
+  margin-left: 13px;
+}
+
+#onoff {
+  width: 45px;
+  height: 20px;
+  border-radius: 5px;
+  border: 3px solid #262626;
+  background-color: #111111; 
+}
+
+.on {
+  width: 20px;
+  height: 18px;
+  background-color: #0066cc;
+  border-radius: 5px;
+  margin: 1px 0 0 2px;
+  display: inline-block;
+}
+
+.off {
+  width: 20px;
+  height: 18px;
+  background-color: #0066cc;
+  border-radius: 5px;
+  margin: 1px 0 0 24px;
+  display: inline-block;
+}
+
+p{
+  font-family: "squada one";
+  font-size: 40pt;
+  margin: 0 0 0 10px;
+}
+
+#strict:active {
+  box-shadow: 0 0 0;
+}
+
+#start:active {
+  box-shadow: 0 0 0;
+}
