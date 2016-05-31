@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<songlist>
+	<song id="0">
+		<title>Beep 1</title>
+		<songURL>http://esopp.github.io/Beep.mp3</songURL>
+		<lyricsURL>test</lyricsURL>
+	</song>
+	<song id="1">
+		<title>Beep 2</title>
+		<songURL>http://esopp.github.io/Beep.mp3</songURL>
+		<lyricsURL>test</lyricsURL>
+	</song>
+	<song id="2">
+		<title>Beep 3</title>
+		<songURL>http://esopp.github.io/Beep.mp3</songURL>
+		<lyricsURL>test</lyricsURL>
+	</song>
+</songlist>
