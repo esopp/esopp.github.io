@@ -1,4 +1,4 @@
-rect {
+.flag {
 	width: 16px;
 	height: 11px;
 	fill:url(flags.png) no-repeat
