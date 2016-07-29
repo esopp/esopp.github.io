@@ -1,12 +1,23 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="description" content="Official website for Lily Mae, singer-songwriter.">
 <title>Lily Mae</title>
-<link type="text/CSS rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 <link type="text/CSS" rel="stylesheet" href="main.css" />
+<script>
+	//does run successfully. may not serve intended purpose yet.
+	function size_landing_height () {
+		document.getElementById('landing').style.height = (window.width * 211/375) + 'px';
+		document.getElementById('landing').style.width = window.width + 'px';
+    }
+    window.onresize = size_landing_height;
+</script>
+<noscript>
+	Apologies if this page does not appear at its best. Your browser does not support Javascript!
+</noscript>
 </head>
-<body>
+<body onload='size_landing_height()'>
 	<nav id="main" role="navigation">
 		<ul class="navUL">
 			<li><a href="#">HOME</a></li>
@@ -45,10 +56,9 @@
 	<section id="live"><a class="anchor" id="anchorlive"></a>
 		<div class="divTitle"><img src="divs/livediv.png" width="100%" alt="LILY MAE LIVE"/></div>
 		<div class="show">
-			<span><BR>UPCOMING<BR></span>
+			<span><br>UPCOMING<br></span>
 			<table>
 				<body>
-				<tr><td>NEW DATES TBA<td></tr>
 					<!-- sample entry -->
 					<!-- <tr>
 						<td>31 MAR</td>
@@ -56,6 +66,25 @@
 						<td>SELLERSVILLE, PA</td>
 						<td><a href="http://www.st94.com/event/999819-iain-matthews-andy-roberts-sellersville/">TICKETS</a></td>
 					</tr> -->
+					    <tr>
+						<td>13 JUL</td>
+						<td>MERCURY LOUNGE</td>
+						<td>NEW YORK, NY</td>
+						<td><a href="http://www.mercuryloungenyc.com/event/1114669-benjamin-francis-leftwich-new-york" target="_blank">SOLD OUT</a></td>
+						</tr>
+						<tr>
+						<td>29 JUL</td>
+						<td>MAUCH CHUNK OPERA HOUSE</td>
+						<td>JIM THORPE, PA</td>
+						<td><a href="http://mcohjt.com/?shows=ari-hest" target="_blank">TICKETS</a></td>
+						</tr>
+						<tr>
+						<td>03 AUG</td>
+						<td>WORLD CAFE LIVE (UPSTAIRS)</td>
+						<td>PHILADELPHIA, PA</td>
+						<td><a href="http://tickets.worldcafelive.com/event/1174975-jay-brannan-philadelphia/" target="_blank">TICKETS</a></td>
+					    </tr> 
+
 				</body>
 			</table>
 			
@@ -74,17 +103,17 @@
 	<section id="gallery"><a class="anchor" id="anchorgallery"></a>
 		<div class="divTitle"><img src="divs/gallerydiv.png" width="100%" alt="LILY MAE GALLERY" /></div>
 		<div id="pictAlbum">
-			<a href="gallery/1.jpg" target="_blank" alt="[description] Photo portrait of Lily Mae"><img width="34%" src="gallery/1.jpg" /></a>
-			<a href="gallery/2.jpg" target="_blank" alt="[description] Concert photo of Lily Mae"><img width="34%" src="gallery/2.jpg" /></a>
-			<a href="gallery/3.jpg" target="_blank" alt="[description] Lily Mae sitting cross-legged on a grey background"><img width="15.2%" src="gallery/3.jpg" /></a>
-			<a href="gallery/4.jpg" target="_blank" alt="[description] Lily Mae sitting in a white armchair against a dark background"><img width="43%" src="gallery/4.jpg" /></a>
-			<a href="gallery/5.jpg" target="_blank" alt="[description] Black and white photo of Lily Mae sitting cross legged and playing guitar"><img width="43%" src="gallery/5.jpg" /></a>
+			<a href="gallery/hirez/Lily_Mae_1.jpg" target="_blank" alt="[description] Photo portrait of Lily Mae"><img width="34%" src="gallery/320h/Lily_Mae_320h_1.jpg" /></a>
+			<a href="gallery/hirez/Lily_Mae_2.jpg" target="_blank" alt="[description] Concert photo of Lily Mae"><img width="34%" src="gallery/320h/Lily_Mae_320h_2.jpg" /></a>
+			<a href="gallery/hirez/Lily_Mae_3.jpg" target="_blank" alt="[description] Lily Mae sitting cross-legged on a grey background"><img width="15.2%" src="gallery/320h/Lily_Mae_320h_3.jpg" /></a>
+			<a href="gallery/hirez/Lily_Mae_4.jpg" target="_blank" alt="[description] Lily Mae sitting in a white armchair against a dark background"><img width="43%" src="gallery/320h/Lily_Mae_320h_4.jpg" /></a>
+			<a href="gallery/hirez/Lily_Mae_5.jpg" target="_blank" alt="[description] Black and white photo of Lily Mae sitting cross legged and playing guitar"><img width="43%" src="gallery/320h/Lily_Mae_320h_5.jpg" /></a>
 		</div>
 		
 		
 		<!-- SnapWidget -->
 		<div id="instaWidget">
-			<p><span>INSTAGRAM</span>LILYMAEMUSIC</p>
+		<p><span>INSTAGRAM</span>LILYMAEMUSIC</p>
 			<!-- SnapWidget -->
 			<iframe src="http://snapwidget.com/sc/?u=bGlseW1hZW11c2ljfGlufDkwfDN8M3x8bm98NXxmYWRlSW58fHllc3xubw==&ve=300316" 
 			title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" 
@@ -105,13 +134,19 @@
 		<div class="border">
 		
 			<div>
-			<p><span>T</span>hink Joni Mitchell meets Laura Marling and you've got a good idea as to what Lily Mae, 19-year-old contemporary folk singer-songwriter, sounds like. Music industry legend and beloved late president of Blue Note Records, Bruce Lundvall said, "Lily Mae has a signature voice, writes excellent songs, and is a future star."</p>
+			<p>20-year-old Philadelphia-based singer-songwriter, Lily Mae, raises a distinctively sublime voice in songs of true millennial grit. Her melodic knack-- granted limitless reign by a stunning vocal range-- is unrelenting, with a free-wheeling kind of brilliance and allure comparable to a young Joni Mitchell. Lily taps into the free-spirited nature of her generation by mixing alternative folk, rock, and jazz in her music. She is an unmistakable artist, as noted by music industry legend and beloved late president of Blue Note Records, Bruce Lundvall, when he said, "Lily Mae has a signature voice, writes excellent songs, and is a future star."</p>
+			<p>Lily's forthcoming EP, "Closer," boasts seven tracks and showcases her as a vocalist, songwriter, musician, and producer. Additionally, Lily recorded select tracks on the album with producer, Steve Brown (Laura Mvula, Rumer) at his studio in England. To celebrate International Women's Day this past March, Lily posted a surprise preview track, "Diamond," from "Closer" on soundcloud. "Diamond" was WXPN's Pick of the Day that same day.</p>
+			<p>Lily cut her teeth working as an opener for Joan Osborne, Livingston Taylor, Ben Taylor, Nathaniel Rateliff, John Gorka, Dry The River, Benjamin Francis Leftwich, Louden Wainwright III, Harry Shearer and Judith Owen, Ari Hest, Iain Matthews, Paul Shaffer, Chris Collingwood (Fountains of Wayne), The Marshall Tucker Band, Jenny Owen Youngs, Amy Helm, Cheryl Wheeler, Alice Ripley, The Claire Lynch Band, Jay Brannan, Sean Rowe, Amy Correia, Caroline Rose, The Kennedy's and many others.</p>
+			<p>On the heels of Lily Mae's debut release, "Early Days," iTunes featured Lily as a New & Noteworthy singer-songwriter. For Folk's Sake called Lily "a younger Laura Marling before she was scorned by life". "Truly amazing," "prodigal," and "innovative" are all words that have been used to describe Lily's work. After attending Lily's show at Firefly Music Festival, <a href='tristateindie.com'>tristateindie.com</a> wrote that Lily has a "voice of gold."</p>
+			<!--
+			<p><span>T</span>hink Joni Mitchell meets Laura Marling and you've got a good idea as to what Lily Mae, 20-year-old contemporary folk singer-songwriter, sounds like. Music industry legend and beloved late president of Blue Note Records, Bruce Lundvall said, "Lily Mae has a signature voice, writes excellent songs, and is a future star."</p>
 
 			<p>Lily is back from England where she was working with producer, Steve Brown (Laura Mvula, Rumer) on select tracks from her forthcoming EP. To celebrate International Women's Day this past March, Lily posted a surprise preview track, "Diamond," from her EP on soundcloud. "Diamond" was WXPN's Pick of the Day that same day.</p>
 
 			<p>Lily has worked with Joan Osborne, Livingston Taylor, Ben Taylor, Nathaniel Rateliff, John Gorka, Dry The River, Louden Wainwright III, Harry Shearer and Judith Owen, Iain Matthews, Paul Shaffer, Chris Collingwood (Fountains of Wayne), The Marshall Tucker Band, Jenny Owen Youngs, Amy Helm, Cheryl Wheeler, Alice Ripley, The Claire Lynch Band, Jay Brannan, Sean Rowe, Amy Correia, Caroline Rose, and many others. </p>
 
 			<p>On the heels of Lily Mae's debut release, "Early Days," iTunes featured Lily as a New & Noteworthy singer-songwriter. Lily hails from Bucks County, PA, but has quite the following in the UK. "Early Days" has been reviewed on both Folk Radio UK and For Folk's Sake. For Folk's Sake called Lily "a younger Laura Marling before she was scorned by life"."Truly amazing," "prodigal," and "innovative" are all words that have been used to describe Lily's work. After attending Lily's show at Firefly Music Festival, <a href="http://www.tristateindie.com/firefly-music-festival-day-two-recap/">tristateindie.com</a> wrote that Lily has a "voice of gold" and called her "this generation's Joni Mitchell." </p>
+			-->
 			</div>
 			<div>
 				<img src="aboutLily.jpg" alt="Image Description: Lily Mae playing guitar on an outdoor stage, facing away from the camera." />
@@ -120,8 +155,8 @@
 		</div>
 	</section>
 	<section id="contact">
-		<p>contact: <a href="mailto:info@lilymaemusic.com">info@lilymaemusic.com</a><p>
+		<p>contact: <a href="mailto:info@lilymaemusic.com">info@lilymaemusic.com</a></p>
 	</section>
 </body>
-</html>
 
+</html>
