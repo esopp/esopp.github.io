@@ -58,6 +58,7 @@ section {
 	
 	background-image: url("ArmchairLily.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0 0 0 0;
 	float: left;
 	
