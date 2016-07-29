@@ -7,6 +7,7 @@ section {
 	margin-top: 8%;
 	width: 100%;
 	background-color: white;
+	clear: both;
 }
 
 *:focus {
