@@ -59,7 +59,7 @@ section {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 3em 0 8% 0;
-	clear: both;
+	float: left;
 }
 
 #landing img {
