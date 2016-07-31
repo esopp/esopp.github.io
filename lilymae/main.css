@@ -52,20 +52,6 @@ section {
 	background-color: darkslategrey;
 }
 
-
-
-#landing {
-	background-image: url("ArmchairLily.jpg");
-	background-repeat: no-repeat;
-	width: 98.5vw;
-	height: 844px;
-	margin: 0 0 130px 0;
-}
-
-#landing img {
-	width: 22em;
-	margin-top: 20%;
-}
 #main ul:nth-child(2) {
 	margin-right: 5%;
 }
@@ -83,6 +69,19 @@ section {
 
 #main ul img {
 	width: 20px;
+}
+
+#landing {
+	background-image: url("ArmchairLily.jpg");
+	background-repeat: no-repeat;
+	width: 98.5vw;
+	height: 844px;
+	margin: 0 0 130px 0;
+}
+
+#landing img {
+	width: 22em;
+	margin-top: 20%;
 }
 
 .divTitle {
