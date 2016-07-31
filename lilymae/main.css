@@ -57,7 +57,7 @@ section {
 #landing {
 	background-image: url("ArmchairLily.jpg");
 	background-repeat: no-repeat;
-	width: 98.5vw;
+	width: 100%;
 	height: 844px;
 	margin: 0 0 8% 0;
 	float: left;
