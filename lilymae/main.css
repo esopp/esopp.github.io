@@ -76,6 +76,7 @@ section {
 	width: 98.5vw;
 	height: 844px;
 	margin: 0 0 130px 0;
+	float: left;
 }
 
 #landing img {
