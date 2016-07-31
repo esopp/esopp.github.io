@@ -3,7 +3,7 @@ body {
 }
 
 section {
-	
+	position: absolute;
 	margin-top: 10vw;
 	width: 98.5vw;
 	background-color: white;
