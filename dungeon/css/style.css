@@ -29,6 +29,7 @@ span {
   line-height: 1;
 }
 
+
 .map {
   margin-top: 15px;
   height: 80vh;
@@ -78,4 +79,23 @@ span {
 
 div {
   line-height: 0;
+}
+
+@media (max-width: 1000px) {
+  .row {
+    height: 30px;
+  }
+  span {
+    margin: 0 30px;
+  }
+  .stats {
+    margin: 30px 0;
+  }
+  .map {
+    margin-top: 30px;
+  }
+  .sqr {
+    width: 30px;
+    height: 30px;
+  }
 }
