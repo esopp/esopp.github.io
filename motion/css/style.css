@@ -16,8 +16,7 @@
 }
 
 img {
-  width: 100vw;
-  height: 170vh;
+  height: 15vh;
 }
 
 @media (max-width: 1000px) {
