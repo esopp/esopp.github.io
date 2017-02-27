@@ -11,7 +11,7 @@ var maxTop = plane.clientHeight - ball.clientHeight;
 
 var g = 10;
 var sg = 0;
-var orientation = 0;
+var o = 0;
 
 ball.style.left = '10px';
 ball.style.top = '10px';
@@ -46,7 +46,7 @@ function bounce () {
   }
 
 function roll() {
-  var x = orientation;
+  var x = o;
    var posx = parseInt(ball.style.left.replace('px', ''), 10);
 //  var posy= parseInt(ball.style.top.replace('px', ''), 10);
   if (x > 5 || x < -5)
@@ -70,7 +70,7 @@ function roll() {
 function handleOrientation(e) {
  // var y = (e.beta > 90 ? 180 : (e.beta < -90 ? 0 : e.beta + 90));
  // var x = e.gamma + 90;
-  orientation = e.gamma;
+  o = e.gamma;
 }
   
 window.addEventListener('deviceorientation', handleOrientation);
