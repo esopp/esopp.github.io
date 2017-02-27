@@ -2,7 +2,7 @@
   margin: auto;
   position: relative;
   width: 100%;
-  height: 95vh;
+  height: 90vh;
 }
 
 .ball {
@@ -45,7 +45,7 @@ a:hover {
   }
 
   .plane {
-    height: 90vh;
+    height: 20vh;
   }
 
   img {
