@@ -15,8 +15,24 @@
   top: 130px;
 }
 
+h1 {
+  font-family: courier;
+  color: #a32;
+}
+
 img {
-  height: 25vh;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+a {
+  font-size: 1.3 em;
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: pink;
 }
 
 @media (max-width: 1000px) {
