@@ -27,7 +27,7 @@ var RecipeBox = React.createClass({
       2: { name: "Bread", ingredients: ["Water", "Flour", "Yeast", "Water"] },
       3: { name: "Rice", ingredients: ["Water", "Rice"] }
     };
-    this.unique_id = stored.length + 1;
+    this.unique_id = Object.keys(stored).length + 1;
 
     return {
       recipes: stored,
