@@ -16,7 +16,6 @@ var orientation = 0;
 ball.style.left = '10px';
 ball.style.top = '10px';
 
-$(document).ready(function () {
   
   var gravity = setInterval(startGravity, 10);
 function startGravity() {
@@ -77,4 +76,3 @@ function handleOrientation(e) {
 window.addEventListener('deviceorientation', handleOrientation);
 setInterval(roll, 10);
 
-});
