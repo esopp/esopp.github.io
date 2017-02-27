@@ -1,0 +1,97 @@
+* {
+  transform-style: flat;
+}
+
+.recipe-box {
+  margin-top: 5%;
+  background-color: lightblue;
+  border: 2px solid black;
+}
+
+.recipe {
+  background-color: #ff9933;
+  border: 2px solid #ff6633;
+  font-family: copperplate, Papyrus, cursive;
+  overflow: auto;
+}
+
+.recipe .well {
+  font-size: 1.4em;
+  color: #ff9933;
+  line-height: 0.5;
+  -webkit-text-stroke: 1px black;
+}
+
+.recipe button {
+  border-radius: 10px;
+  margin-left: 25%;
+  padding: 15px;
+  font-size: 1.5em;
+  background-color: lightblue;
+}
+
+.recipe button:hover {
+  color: red;
+  border: 2px solid #ff9933;
+}
+
+p:hover {
+  color: red;
+}
+
+.title {
+  font-family: copperplate, Papyrus, cursive;
+  font-size: 3em;
+  color: lightblue;
+  line-height: 0.5;
+  -webkit-text-stroke: 1px black;
+}
+
+.popup {
+  padding: 1%;
+  margin: 10px 0 0 25%;
+  width: 40%;
+  background-color: white;
+  border-radius: 5px;
+  position: fixed;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.popup-hidden {
+  display: none;
+}
+
+.popup div, textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+#add-recipe-button {
+  background-color: #ff9933;
+  font-family: copperplate, Papyrus, cursive;
+  border: 2px solid black;
+  color: lightblue;
+  -webkit-text-stroke: 1px black;
+  font-size: 1.4em;
+}
+
+#add-recipe-button:hover {
+  border: 1px solid lightblue;
+  color: red;
+}
+
+.add-div {
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+.btn-div {
+  display: inline;
+  padding-left: 25%;
+}
+
+h4 {
+  font-size: 2em;
+}
