@@ -5,6 +5,10 @@
   font-size: 1.1em;
 }
 
+#play {
+ width: 100%;
+}
+
 .row {
   width: 90%;
   margin: 0 auto;
@@ -83,7 +87,7 @@ div {
 
 @media (max-width: 1000px) {
   * {
-    font-size: 1.5em;
+    font-size: 14pt;
   }
   .row {
     height: 50px;

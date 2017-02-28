@@ -441,4 +441,4 @@ function remove(arr, index) {
   } else return arr;
 }
 
-ReactDOM.render(React.createElement(Map, null), document.body);
+ReactDOM.render(React.createElement(Map, null), document.getElementById('play'));
