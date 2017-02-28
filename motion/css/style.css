@@ -33,6 +33,10 @@ h1 {
   color: #a32;
 }
 
+table {
+  display: inline-block;
+}
+
 td {
   border-radius: 10px;
   background-color: white;
@@ -45,8 +49,8 @@ td {
 }
 
 .img-container {
-  display: inline-block;
-  padding: 3px;
+  display: inline;
+  padding: 5px;
 }
 
 img {
