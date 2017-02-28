@@ -19,7 +19,7 @@
   position: relative;
   background-color: #48c;
   padding: 5%;
-  width: 100%;
+  text-align: center;
 }
 
 .brickred {
@@ -69,7 +69,7 @@ a:hover {
 
 @media (max-width: 1000px) {
   td {
-    font-size: 5em;
+    font-size: 3em;
   }
   .ball {
     background-color: blue;
