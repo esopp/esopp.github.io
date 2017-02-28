@@ -18,6 +18,13 @@
 .blue {
   background-color: #48c;
   padding: 5%;
+  width: 100%;
+}
+
+.brickred {
+  background-color: #a34;
+  padding: 10px; 
+  display: inline-block;
 }
 
 h1 {
@@ -27,7 +34,8 @@ h1 {
 
 td {
   border-radius: 10px;
-  background-color: #a32;
+  background-color: white;
+  color: #a32;
   width: 30%;
   border: 1px solid #aaa;
   padding: 5px;
@@ -44,8 +52,8 @@ img {
 }
 
 img:hover {
-  -webkit-transition: height 2s;
-  transition: height 2s;
+  -webkit-transition: width 2s, height 2s;
+  transition: width 2s, height 2s;
 }
 
 a {
