@@ -87,7 +87,7 @@ div {
 
 @media (max-width: 1000px) {
   * {
-    font-size: 14pt;
+    font-size: 20pt;
   }
   .row {
     height: 50px;
