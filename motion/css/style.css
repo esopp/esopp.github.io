@@ -20,6 +20,13 @@ h1 {
   color: #a32;
 }
 
+td {
+  border-radius: 10px;
+  background-color: #cdd;
+  width: 15%;
+  border: 1px solid #aaa;
+}
+
 img {
   height: 10vh;
   border-radius: 10px;
@@ -30,9 +37,9 @@ img:hover {
 }
 
 a {
-  font-size: 1.3 em;
+  font-size: 2 em;
   text-decoration: none;
-  color: blue;
+  color: #358;
 }
 
 a:hover {
@@ -49,6 +56,10 @@ a:hover {
   }
 
   img {
+    display: none;
+  }
+  
+  .img-container {
     display: none;
   }
 }
