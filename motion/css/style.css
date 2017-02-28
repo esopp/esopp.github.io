@@ -15,6 +15,11 @@
   top: 130px;
 }
 
+.blue {
+  background-color: #48c;
+  padding: 5%;
+}
+
 h1 {
   font-family: courier;
   color: #a32;
@@ -22,9 +27,15 @@ h1 {
 
 td {
   border-radius: 10px;
-  background-color: #cdd;
-  width: 15%;
+  background-color: #a32;
+  width: 30%;
   border: 1px solid #aaa;
+  padding: 5px;
+  text-align: center;
+}
+
+.img-container {
+  display: inline-block;
 }
 
 img {
@@ -33,7 +44,8 @@ img {
 }
 
 img:hover {
-  height: 30vh;
+  -webkit-transition: height 2s;
+  transition: height 2s;
 }
 
 a {
