@@ -75,7 +75,7 @@ a {
 a:hover {
   color: pink;
 }
-
+/**
 @media (max-width: 1000px) {
   h1 {
    font-size: 4em;
@@ -99,3 +99,4 @@ a:hover {
     display: none;
   }
 }
+**/
