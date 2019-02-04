@@ -17,13 +17,13 @@
 }
 
 .blue {
-  background-color: #48c;
+ /** background-color: #48c;**/
   padding: 5%;
-  text-align: center;
+  /**text-align: center;**/
 }
 
 .brickred {
-  background-color: #a34;
+ /** background-color: #a34;**/
   padding: 10px; 
   display: inline-block;
 }
@@ -51,7 +51,7 @@ td {
 .img-container {
   display: inline;
   padding: 5px;
-  background-color: #a32;
+/**  background-color: #a32;**/
   border: 0px;
 }
 
